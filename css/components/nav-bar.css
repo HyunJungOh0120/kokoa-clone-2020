@@ -1,0 +1,42 @@
+.nav {
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+  border-top: 1px solid rgba(141, 139, 139, 0.3);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  color: #2e373d;
+}
+.nav__btn {
+  position: relative; /* ㅇㅓ떤 버튼 인지 따로 지정안해도 가장 가까운 것으로 찾아간ㄷㅏ. */
+}
+
+.nav__notification {
+  background-color: tomato;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 20px;
+  width: 26px;
+  height: 26px;
+  border-radius: 13px;
+  bottom: 17px;
+}
+.nav__notification__dot {
+  background-color: tomato;
+  display: flex;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+}
