@@ -1,3 +1,7 @@
+#surrounding-status-bar {
+  height: 30px;
+}
+
 .status-bar {
   display: flex;
   justify-content: center;
@@ -7,6 +11,7 @@
   top: 0;
   width: 100%;
   box-sizing: border-box;
+  z-index: 11;
 }
 .status-bar__column:first-child span {
   margin-right: 5px;

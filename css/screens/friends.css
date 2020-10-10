@@ -1,0 +1,33 @@
+.friends-display-link {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  background-color: #f5f5f5;
+  padding: 15px 0px;
+  margin-bottom: 15px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.friends-display-link i {
+  color: #d5d5d5;
+  margin: 0px 10px;
+}
+
+.friends-screen {
+  padding: 0px var(--horizontal-space);
+}
+
+.friends-screen__channel__header {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.4);
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 15px 0px;
+  margin-top: 23px;
+  margin-bottom: 10px;
+}
+
+.user-component__column:last-child {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 20px;
+}

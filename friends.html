@@ -7,6 +7,7 @@
     <title>Welcome to Kokoa Clone</title>
   </head>
   <body>
+<div id="surrounding-status-bar">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -22,17 +23,58 @@
         <i class="fas fa-bolt fa-sm"></i>
       </div>
     </div>
-
-    <div class="screen-header__surrounded-div">
-    <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
-      <div class="screen-header__icons">
-        <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="fas fa-music fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
-      </div>
+</div>
+    <div class="surrounding-screen-header">
+      <header class="screen-header">
+        <h1 class="screen-header__title">Friends</h1>
+        <div class="screen-header__icons">
+          <span><i class="fas fa-search fa-lg"></i></span>
+          <span><i class="fas fa-music fa-lg"></i></span>
+          <span><i class="fas fa-cog fa-lg"></i></span>
+        </div>
+      </header>
     </div>
-    </header>
+    
+    <a class="friends-display-link"
+      ><i class="fas fa-info-circle"></i></i>Friends' Names Display<i class="fas fa-angle-right"></i></a
+    >
+
+<main class="friends-screen">
+
+<div class="user-component">
+  <div class="user-component__column">
+        <img class="user-component__avatar user-component__avatar--xl" 
+             src="https://avatars1.githubusercontent.com/u/72025960?s=460&u=d6e4c98fd5adeba02e603d77dadd918eae7ff1ba&v=4" />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Oh Hyun jung</h4>
+            <!--<h6 class="user-component__subtitle">learning coding</h6>-->
+          </div> 
+    </div>
+    <div class="user-component__column"></div>
+ </div>
+
+ <div class="friends-screen__channel">
+     <div class="friends-screen__channel__header">
+         <span>Channel</span>
+         <i class="fas fa-angle-up"></i>
+     </div>
+     <div class="user-component">
+      <div class="user-component__column">
+        <img class="user-component__avatar user-component__avatar--sm" 
+             src="https://avatars1.githubusercontent.com/u/72025960?s=460&u=d6e4c98fd5adeba02e603d77dadd918eae7ff1ba&v=4" />
+          <div class="user-component__text">
+            <h4 class="user-component__title user-component__title--not-bold">Channel</h4>
+          </div> 
+      </div>
+    <div class="user-component__column">
+        <span>2</span>
+        <i class="fas fa-angle-right"></i>
+    </div>
+    </div>
+</div>
+
+</main>
+
 
     <nav class="nav">
       <ul class="nav__list">
