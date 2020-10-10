@@ -5,6 +5,7 @@
   background-color: #f5f5f5;
   padding: 15px 0px;
   margin-bottom: 15px;
+  margin-top: -15px;
   color: rgba(0, 0, 0, 0.5);
 }
 
@@ -25,9 +26,4 @@
   padding: 15px 0px;
   margin-top: 23px;
   margin-bottom: 10px;
-}
-
-.user-component__column:last-child {
-  color: rgba(0, 0, 0, 0.4);
-  font-size: 20px;
 }
