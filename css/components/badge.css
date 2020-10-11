@@ -8,3 +8,11 @@
   height: 26px;
   border-radius: 13px;
 }
+
+.dot {
+  background-color: tomato;
+  display: flex;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+}

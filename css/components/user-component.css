@@ -3,6 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 10px;
 }
 
 .user-component__avatar {
@@ -18,9 +19,9 @@
 }
 
 .user-component__subtitle {
-  color: #a1a1a1;
+  color: var(--font-grey);
   margin-top: 9px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .user-component__avatar--xl {

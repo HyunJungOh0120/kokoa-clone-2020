@@ -3,4 +3,7 @@
   --lightgrey: #f6f6f6;
   --brown: #3d1d1f;
   --horizontal-space: 25px;
+  --font-grey: #979797;
+  --border: 1px solid rgba(0, 0, 0, 0.17);
+  --vertical-space: 23px 0px;
 }

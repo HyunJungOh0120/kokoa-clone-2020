@@ -22,3 +22,13 @@
 .screen-header__icons span {
   margin-left: 35px;
 }
+
+.screen-header__icons__each {
+  position: relative;
+}
+
+.screen-header__notification__dot {
+  position: absolute;
+  left: 23px;
+  bottom: 23px;
+}
