@@ -7,7 +7,7 @@
     <title>Chat-Kokoa clone</title>
   </head>
   <body id="chat-screen">
-    <div id="surrounding-status-bar">
+    <div class="surrounding-status-bar">
       <div class="status-bar">
         <div class="status-bar__column">
           <span>No Service</span>
@@ -63,6 +63,19 @@
         </div>
       </div>
     </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-2x"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message.." />
+        <i class="far fa-smile-wink fa-2x"></i>
+        <button>
+          <i class="fas fa-arrow-up fa-lg"></i>
+        </button>
+      </div>
+    </form>
 
     <script
       src="https://kit.fontawesome.com/f5ac9989c4.js"

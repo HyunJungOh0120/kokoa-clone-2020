@@ -82,3 +82,69 @@
 .message-row--own .message__info {
   flex-direction: row-reverse;
 }
+
+.reply {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 22px;
+  box-sizing: border-box;
+  align-items: center;
+}
+.reply i {
+  opacity: 0.6;
+}
+
+.reply .reply__column:first-child {
+  width: 10%;
+}
+.reply .reply__column:last-child {
+  width: 90%;
+  position: relative;
+}
+
+.reply input {
+  padding: 14px;
+  width: 100%;
+  border: var(--border);
+  border-radius: 25px;
+  box-sizing: border-box;
+}
+.reply ::placeholder {
+  font-size: 20px;
+}
+.reply [type="text"] {
+  font-size: 20px;
+}
+
+.reply .reply__column:last-child > i,
+.reply .reply__column:last-child button {
+  position: fixed;
+  bottom: 12px;
+  right: 26px;
+}
+
+.reply .reply__column:last-child > i {
+  right: 80px;
+  bottom: 17px;
+}
+
+.reply .reply__column:last-child button {
+  background-color: var(--yellow);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+}
+
+.reply .reply__column:last-child button i {
+  opacity: 1;
+}
+
+.reply .reply__column:last-child button:focus,
+.reply .reply__column:last-child button:active {
+  outline: none;
+}
