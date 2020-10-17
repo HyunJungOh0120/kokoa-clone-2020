@@ -1,3 +1,7 @@
+body {
+  height: 115vh;
+}
+
 .recommended-friends {
   margin: 23px 0px;
   border-top: var(--border);
