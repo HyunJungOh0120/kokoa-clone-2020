@@ -1,0 +1,48 @@
+#no-landscape {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--yellow);
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  color: var(--brown);
+}
+@keyframes flipicon {
+  0% {
+    transform: rotate(90deg);
+  }
+  20% {
+    transform: none;
+  }
+  40% {
+    transform: none;
+  }
+  60% {
+    transform: none;
+  }
+  80% {
+    transform: none;
+  }
+  100% {
+    transform: rotate(90deg);
+  }
+}
+
+#no-landscape i {
+  margin-bottom: 20px;
+  animation: flipicon 1s ease-in-out infinite;
+}
+
+#no-landscape span {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+@media screen and (min-height: 568px) {
+  #no-landscape {
+    display: none;
+  }
+}
