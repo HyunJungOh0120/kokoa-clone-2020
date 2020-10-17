@@ -123,23 +123,23 @@
 }
 
 .reply ::placeholder {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .reply [type="text"] {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .reply .reply__column:last-child > i,
 .reply .reply__column:last-child button {
   position: fixed;
-  bottom: 12px;
+  bottom: 9px;
   right: 26px;
 }
 
 .reply .reply__column:last-child > i {
   right: 80px;
-  bottom: 17px;
+  bottom: 12px;
 }
 
 .reply .reply__column:last-child button {
