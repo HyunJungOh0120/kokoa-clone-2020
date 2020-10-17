@@ -41,7 +41,7 @@
   font-weight: 600;
 }
 
-@media screen and (min-height: 568px) {
+@media screen and (min-height: 600px) {
   #no-landscape {
     display: none;
   }
