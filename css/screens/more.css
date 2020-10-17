@@ -1,3 +1,7 @@
+body {
+  height: 115vh;
+}
+
 .more-screen .icon-row {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
